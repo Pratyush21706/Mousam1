@@ -142,9 +142,9 @@ drawSprites();
             text("Recoverd: "+recover,width/1.8,height/1.11);
             text("Deaths:    "+deaths,width/10,height/1.11)
             text("Critical:     "+critical,width/10,height/1.06)
-            text("Active:     "+active,width/1.8,height/1.17)
+            text("Active:    "+active,width/1.8,height/1.17)
              text("Country:  "+country1,width/10,height/1.17)
-            text("Tests:      "+totalT,width/1.8,height/1.06)
+            text("Tests:    "+totalT,width/1.8,height/1.06)
 
 
             fill("#ffffff")
@@ -188,7 +188,7 @@ noStroke();
             input1.position(width/1.65,height/30)
 input1.style(`font-size`,`12px`)
 
-            button.position(width/1.38,height/30)
+            button.position(width/1.32,height/30)
             button.style(`font-size`,`11px`)
      }
        if(a ===3){
