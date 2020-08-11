@@ -20,7 +20,7 @@ function setup(){
   input2.style(`font-size`,`20px`)
 
   button = createButton(`🔎`)
-  button.position(width/1.8,height/1.1)
+  button.position(width/1.5,height/1.1)
   button.mousePressed(weatherAsk);
   button.style(`font-size`,`20px`)
 
@@ -56,7 +56,7 @@ function setup(){
   function change(){
     input2.position(width/3,height/1.5);
     button2.position(width/1.6,height/1.5)
-      button2.position(width/1.756,-555)
+      button1.position(width/1.756,-555)
 
 
   }
@@ -190,9 +190,9 @@ noStroke();
             text(Math.round(windSpeed)+` Kph`,width/1.2,height/1.8)
             text(Math.round(windD)+`°`,width/1.2,height/1.65)
             input1.position(width/1.65,height/30)
-input1.style(`font-size`,`12px`)
+input1.style(`font-size`,`10px`)
 
-            button.position(width/1.32,height/30)
+            button.position(width/1.28,height/30)
             button.style(`font-size`,`11px`)
      }
        if(a ===3){
