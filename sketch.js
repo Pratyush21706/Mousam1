@@ -56,6 +56,8 @@ function setup(){
   function change(){
     input2.position(width/3,height/1.5);
     button2.position(width/1.6,height/1.5)
+      button2.position(width/1.756,-555)
+
 
   }
   function doing(){
@@ -64,6 +66,8 @@ function setup(){
   loadJSON(covidUrl, gotCorona);
   button2.position(width/1.756,-555)
   input2.position(width/2.59,-5555);
+  button1.position(width/1.4,height/1.5)
+    
   }
 
   function draw(){
