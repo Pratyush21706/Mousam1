@@ -29,7 +29,7 @@ function setup(){
   button1.mousePressed(change);
   button1.style(`font-size`,`10px`)
 
-  button2 = createButton(`🌏Go`)
+  button2 = createButton(`🌏Search`)
   button2.position(width/1.756,-555)
   button2.mousePressed(doing);
   button2.style(`font-size`,`15px`)
@@ -55,7 +55,7 @@ function setup(){
   }
   function change(){
     input2.position(width/3,height/1.5);
-    button2.position(width/1.6,height/1.5)
+    button2.position(width/1.4,height/1.5)
       button1.position(width/1.756,-555)
 
 
