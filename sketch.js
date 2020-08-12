@@ -55,7 +55,7 @@ function setup(){
   }
   function change(){
     input2.position(width/3,height/1.5);
-    button2.position(width/1.4,height/1.5)
+    button2.position(width/1.35,height/1.5)
       button1.position(width/1.756,-555)
 
 
@@ -72,7 +72,7 @@ function setup(){
 
   function draw(){
     background(s1)
-       if(keyDown("Enter")){
+       if(keyDown("Space")){
         weatherAsk();
       }
 
@@ -108,8 +108,10 @@ totalT = report.totalTests;
         }
 
 drawSprites();
-    
-
+    if(a===1){
+     let need = input1.value();
+      text(need,width/2,height/6)
+    }
    
       if(a===2){
         background("#37383b")
@@ -189,6 +191,7 @@ noStroke();
             text(Math.round(lon),width/1.15,height/2.35)
             text(Math.round(windSpeed)+` Kph`,width/1.2,height/1.8)
             text(Math.round(windD)+`°`,width/1.2,height/1.65)
+        
             input1.position(width/1.65,height/30)
 input1.style(`font-size`,`10px`)
 
