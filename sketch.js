@@ -140,7 +140,7 @@ drawSprites();
             textSize(20)
             text("Country: "+country,width/10,height/2.6);
             text("Humidity: "+humidity+"%",width/10,height/2.3)
-            text("Preassure: "+preassure,width/10,height/2.08)
+            text("Pressure: "+preassure+" Pa",width/10,height/2.08)
             text("Feels Like: "+Math.round(feel)+"°C",width/10,height/1.9)
 //             //covid 19
             fill("black")
