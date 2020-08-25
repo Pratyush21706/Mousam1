@@ -198,7 +198,7 @@ function draw() {
         stroke("#ff3b5c");
         noFill();
         //Math.round(cases)
-        text("COMING SOON...", width / 5, height / 1.24)
+        text("COMING SOON...", width / 6, height / 1.24)
         fill("#ffffff")
         noStroke();
         textSize(20)
@@ -247,7 +247,7 @@ function draw() {
 
         textSize(40);
         fill("fffffff")
-        text(`loading...`, width / 3.1, height / 1.5)
+        text(`loading...`, width / 3.1, height / 2)
 
         textSize(20);
     }
